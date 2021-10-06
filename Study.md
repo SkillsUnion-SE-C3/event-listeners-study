@@ -1,10 +1,10 @@
 [<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
+
 # Event-Listeners: Study
 
 Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along with the provided resources to research and answer the [questions below](#questions).
 
 ## Required Reading
-
 
 - [w3: What is an Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
@@ -12,40 +12,49 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 - [W3Schools: What is an Event Listener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-
-
 ## Questions
 
-1. Why are Events required?
+1.  Why are Events required?
 
     ```
-    Please write your answer here.
+    Events allow interactivity between HTML elements and Javascript.
     ```
 
-1. Name a few Events?
+1.  Name a few Events?
 
     ```
-    Please write your answer here.
+    onclick()
+    mousedown()
     ```
 
-1. How to add an Events Listener ?
+1.  How to add an Events Listener ?
 
     ```
-    Please write your answer here.
-    ```
+    1. Select element
+    2. Add event
+    3. Assign event to a function
+     <button onclick=show()>Contact</button>
+    ``
 
-1. Write JavaScript code for inline `onclick` event for a button that will display an alert "Hello" when clicked:
-
-    ```js
-    /* Your Answer */
-    ```
-
-1. Using a "Fist to Five", what is your comfort and clarity level?
 
     ```
-    Comfort:
 
-    Clarity:
+1.  Write JavaScript code for inline `onclick` event for a button that will display an alert "Hello" when clicked:
+
+        /* Your Answer */
+
+    <button onclick="click()">Click me</button>
+
+    function click(event){
+    alert("Hello");
+    } ```
+
+1.  Using a "Fist to Five", what is your comfort and clarity level?
+
+    ```
+    Comfort: 4
+
+    Clarity: 4
     ```
 
 ### Response Guidelines
